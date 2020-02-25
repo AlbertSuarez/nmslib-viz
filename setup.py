@@ -24,7 +24,6 @@ setuptools.setup(
     zip_safe=False,
     classifiers=[
         'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: Apache-2.0 License',
         'Operating System :: OS Independent',
     ],
     keywords='nmslib visualization graph',
