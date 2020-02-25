@@ -2,3 +2,6 @@ setuptools
 wheel
 tqdm
 twine
+nmslib
+networkx
+matplotlib
