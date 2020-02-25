@@ -16,7 +16,7 @@
 Install client via pip. Ideally, `nmslib-viz` is well supported for Python >= 3.7.
 
 ```bash
-pip install gpt2-client
+pip install nmslib-viz
 ```
 
 ## Usage
