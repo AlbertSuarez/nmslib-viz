@@ -27,4 +27,6 @@ setuptools.setup(
         'License :: OSI Approved :: Apache-2.0 License',
         'Operating System :: OS Independent',
     ],
+    keywords='nmslib visualization graph',
+    scripts=['bin/nmslib-viz']
  )
