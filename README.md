@@ -1,11 +1,13 @@
 # NMSLIB-viz
 
 [![HitCount](http://hits.dwyl.io/AlbertSuarez/nmslib-viz.svg)](http://hits.dwyl.io/AlbertSuarez/nmslib-viz)
+[![PyPI version](https://badge.fury.io/py/nmslib-viz.svg)](https://pypi.org/project/nmslib-viz/)
+[![PyPI downloads](https://crate.io/packages/nmslib-viz)](https://pypi.org/project/nmslib-viz/)
+![Python application](https://github.com/AlbertSuarez/searchly/workflows/Python%20application/badge.svg)
+![Python package](https://github.com/AlbertSuarez/nmslib-viz/workflows/Python%20package/badge.svg)
 [![GitHub stars](https://img.shields.io/github/stars/AlbertSuarez/nmslib-viz.svg)](https://GitHub.com/AlbertSuarez/nmslib-viz/stargazers/)
 [![GitHub forks](https://img.shields.io/github/forks/AlbertSuarez/nmslib-viz.svg)](https://GitHub.com/AlbertSuarez/nmslib-viz/network/)
 [![GitHub contributors](https://img.shields.io/github/contributors/AlbertSuarez/nmslib-viz.svg)](https://GitHub.com/AlbertSuarez/nmslib-viz/graphs/contributors/)
-[![GitHub license](https://img.shields.io/github/license/AlbertSuarez/nmslib-viz.svg)](https://github.com/AlbertSuarez/nmslib-viz/blob/master/LICENSE)
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://GitHub.com/AlbertSuarez/nmslib-viz)
 
 📊 NMSLIB visualization tool
 
