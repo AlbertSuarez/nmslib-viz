@@ -3,5 +3,5 @@ wheel
 tqdm
 twine
 nmslib
-networkx
+numpy
 matplotlib

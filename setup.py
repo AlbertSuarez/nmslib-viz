@@ -18,7 +18,7 @@ setuptools.setup(
     install_requires=[
         'tqdm==4.43.0',
         'nmslib==2.0.5',
-        'networkx==2.4',
+        'numpy==1.18.1',
         'matplotlib==3.1.3'
     ],
     zip_safe=False,
