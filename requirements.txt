@@ -5,3 +5,4 @@ twine
 nmslib
 numpy
 matplotlib
+scikit-learn
