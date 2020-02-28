@@ -1,3 +1,5 @@
+VIEW_DIMENSIONS = 3
+
 HELP_NMSLIB_INDEX_FILE_PATH = 'String pointing to the NMSLIB file path. ' \
                               'There has to be the additional .dat file for the index, the one that is created when ' \
                               'uses the `save_data=True` option in the saveIndex() function. For example: ' \

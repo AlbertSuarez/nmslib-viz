@@ -1,4 +1,4 @@
-from nmslib_viz import file_manager, nmslib
+from nmslib_viz import file_manager, nmslib, pca
 from nmslib_viz.config import ERROR_FILE_NOT_EXISTS
 
 
@@ -22,5 +22,10 @@ def view(nmslib_index_file_path: str):
         # Build data set
         print('info: Building data set...')
         data_set = nmslib.build_data_set(index_instance)
+        # PCA fit-transform
+        print('info: PCA fit-transforming...')
+        data_set = pca.reduce(data_set)
+        if data_set is None:
+            return
     except Exception as e:
         print(f'error: Unexpected error occurred: [{e}]')
