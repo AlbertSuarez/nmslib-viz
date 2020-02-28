@@ -1,10 +1,9 @@
-VISUALIZE_MAXIMUM_NODES = 100
+HELP_NMSLIB_INDEX_FILE_PATH = 'String pointing to the NMSLIB file path. ' \
+                              'There has to be the additional .dat file for the index, the one that is created when ' \
+                              'uses the `save_data=True` option in the saveIndex() function. For example: ' \
+                              '`index.nmslib` and `index.nmslib.dat` need to exist but only `index.nmslib` has to be ' \
+                              'provided as this parameter.'
 
-HELP_NMSLIB_INDEX_FILE_PATH = 'String pointing to the NMSLIB file path.'
-HELP_MAXIMUM_NODES = f'Integer between 1 and {VISUALIZE_MAXIMUM_NODES} representing the amount of nodes to visualize.'
-
-NMSLIB_METRIC = 'l2'
-NMSLIB_METHOD = 'hnsw'
-NMSLIB_QUERY_TIME_EF_SEARCH = 500
-
-ERROR_FILE_NOT_EXISTS = 'File path provided do not point to an NMSLIB index.'
+ERROR_FILE_NOT_EXISTS = 'File path provided do not point to an NMSLIB index. ' \
+                        'Remember for visualizing an NMSLIB index, data from the index had to be saved when saving ' \
+                        'the index using the `save_data=True` option in the saveIndex() function.'

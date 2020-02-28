@@ -1,12 +1,11 @@
 #!/usr/bin/env python
 import argparse
 import nmslib_viz
-from nmslib_viz.config import VISUALIZE_MAXIMUM_NODES, HELP_NMSLIB_INDEX_FILE_PATH, HELP_MAXIMUM_NODES
+
+from nmslib_viz.config import HELP_NMSLIB_INDEX_FILE_PATH
 
 
 parser = argparse.ArgumentParser()
 parser.add_argument('nmslib_index_file_path', type=str, help=HELP_NMSLIB_INDEX_FILE_PATH)
-parser.add_argument('--maximum_nodes', type=int, default=VISUALIZE_MAXIMUM_NODES,
-                    help=HELP_MAXIMUM_NODES, choices=range(1, VISUALIZE_MAXIMUM_NODES))
 args = parser.parse_args()
-nmslib_viz.view(args.nmslib_index_file_path, args.maximum_nodes)
+nmslib_viz.view(args.nmslib_index_file_path)
