@@ -19,7 +19,8 @@ setuptools.setup(
         'tqdm==4.43.0',
         'nmslib==2.0.5',
         'numpy==1.18.1',
-        'matplotlib==3.1.3'
+        'matplotlib==3.1.3',
+        'scikit-learn==0.22.2'
     ],
     zip_safe=False,
     classifiers=[
