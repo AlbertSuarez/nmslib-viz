@@ -1,11 +1,12 @@
-from nmslib_viz import file_manager, nmslib, pca
-from nmslib_viz.config import ERROR_FILE_NOT_EXISTS
+from nmslib_viz import file_manager, nmslib, pca, plot
+from nmslib_viz.config import ERROR_FILE_NOT_EXISTS, ERROR_NUMBER_POINTS, NUMBER_POINTS
 
 
-def view(nmslib_index_file_path: str):
+def view(nmslib_index_file_path: str, number_points: int = NUMBER_POINTS):
     """
     Main function for visualizing an NMSLIB index given its file path.
     :param nmslib_index_file_path: File path pointing to a NMSLIB index.
+    :param number_points: Number of points as a maximum to plot from the NMSLIB index data.
     :return: Index being visualized.
     """
     try:
@@ -13,6 +14,10 @@ def view(nmslib_index_file_path: str):
         file_exists: bool = file_manager.exists(nmslib_index_file_path)
         if not file_exists:
             print(f'error: {ERROR_FILE_NOT_EXISTS}')
+            return
+        # Check number of points
+        if number_points <= 0:
+            print(f'error: {ERROR_NUMBER_POINTS}')
             return
         # Load index
         print('info: Loading index...')
@@ -27,5 +32,10 @@ def view(nmslib_index_file_path: str):
         data_set = pca.reduce(data_set)
         if data_set is None:
             return
+        # Plot
+        print('info: Plotting data...')
+        plot.show(data_set, number_points)
     except Exception as e:
         print(f'error: Unexpected error occurred: [{e}]')
+    finally:
+        print('info: Done!')

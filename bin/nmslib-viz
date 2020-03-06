@@ -2,10 +2,11 @@
 import argparse
 import nmslib_viz
 
-from nmslib_viz.config import HELP_NMSLIB_INDEX_FILE_PATH
+from nmslib_viz.config import HELP_NMSLIB_INDEX_FILE_PATH, NUMBER_POINTS, HELP_NUMBER_POINTS
 
 
 parser = argparse.ArgumentParser()
 parser.add_argument('nmslib_index_file_path', type=str, help=HELP_NMSLIB_INDEX_FILE_PATH)
+parser.add_argument('--number_points', type=int, default=NUMBER_POINTS, help=HELP_NUMBER_POINTS)
 args = parser.parse_args()
-nmslib_viz.view(args.nmslib_index_file_path)
+nmslib_viz.view(args.nmslib_index_file_path, args.number_points)
