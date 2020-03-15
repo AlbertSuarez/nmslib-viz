@@ -35,7 +35,7 @@ Arguments:
 
 ## Result
 
-![Example](docs/images/example.png)
+![Example](https://raw.githubusercontent.com/AlbertSuarez/nmslib-viz/master/docs/images/example.png)
 
 > **Note**: this example is a representation of the [SearchLy](https://github.com/AlbertSuarez/searchly) index.
 
