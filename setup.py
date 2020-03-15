@@ -6,7 +6,7 @@ with open('README.md', 'r') as readme_file:
 
 setuptools.setup(
     name='nmslib-viz',
-    version='0.1.1',
+    version='1.0.0',
     author='AlbertSuarez',
     author_email='alsumo95@gmail.com',
     description='NMSLIB visualization tool',
