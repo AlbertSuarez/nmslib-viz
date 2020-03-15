@@ -16,11 +16,10 @@ setuptools.setup(
     license='Apache-2.0',
     packages=['nmslib_viz'],
     install_requires=[
-        'tqdm==4.43.0',
         'nmslib==2.0.5',
         'numpy==1.18.1',
-        'matplotlib==3.1.3',
-        'scikit-learn==0.22.2'
+        'matplotlib==3.2.0',
+        'scikit-learn==0.22.2.post1'
     ],
     zip_safe=False,
     classifiers=[

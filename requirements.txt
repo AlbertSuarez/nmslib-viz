@@ -1,6 +1,5 @@
 setuptools
 wheel
-tqdm
 twine
 nmslib
 numpy
