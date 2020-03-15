@@ -22,4 +22,3 @@ def show(data_set, number_points: int):
     ax.set_title('NMSLIB index 3D representation', fontsize=20)
     ax.scatter(xs=x, ys=y, zs=z)
     plt.show()
-
