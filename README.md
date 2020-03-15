@@ -10,23 +10,57 @@
 
 📊 NMSLIB visualization tool
 
-> *WORK IN PROGRESS PROJECT*
-
 ## Installation
 
 Install client via pip. Ideally, `nmslib-viz` is well supported for Python >= 3.7.
 
 ```bash
-pip install nmslib-viz
+pip3 install nmslib-viz --no-binary nmslib
 ```
+
+> The `--no-binary` option is important for a better CPU performance.
 
 ## Usage
 
 Just run it like this:
 
 ```bash
-nmslib-viz
+nmslib-viz INDEX_FILE_PATH [--number_points NUMBER_POINTS]
 ```
+
+Arguments:
+
+- `INDEX_FILE_PATH`: String pointing to the NMSLIB file path. There has to be the additional .dat file for the index, the one that is created when uses the `save_data=True` option in the saveIndex() function. For example: `index.nmslib` and `index.nmslib.dat` need to exist but only `index.nmslib` has to be provided as this parameter.
+- `NUMBER_POINTS`: (optional) Number of points as a maximum to plot from the NMSLIB index data, where has to be 1 at least. Default value: 1000.
+
+## Result
+
+![Example](docs/images/example.png)
+
+> **Note**: this example is a representation of the [SearchLy](https://github.com/AlbertSuarez/searchly) index.
+
+## Development
+
+### Recommendations
+
+Usage of [virtualenv](https://realpython.com/blog/python/python-virtual-environments-a-primer/) is recommended for package library / runtime isolation.
+
+### Installation
+
+1. Setup virtual environment
+
+2. Install dependencies
+
+  ```bash
+  pip3 install -r requirements.lock
+  ```
+
+3. Install locally
+
+  ```bash
+  pip3 install . --no-binary nmslib
+  ```
+  
 
 ## Contributing
 
