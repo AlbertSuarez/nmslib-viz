@@ -1,7 +1,11 @@
 # NMSLIB-viz
 
-[![HitCount](http://hits.dwyl.io/AlbertSuarez/nmslib-viz.svg)](http://hits.dwyl.io/AlbertSuarez/nmslib-viz)
 [![PyPI version](https://badge.fury.io/py/nmslib-viz.svg)](https://pypi.org/project/nmslib-viz/)
+[![Downloads](https://pepy.tech/badge/nmslib-viz)](https://pepy.tech/project/nmslib-viz)
+[![Downloads](https://pepy.tech/badge/nmslib-viz/month)](https://pepy.tech/project/nmslib-viz/month)
+[![Downloads](https://pepy.tech/badge/nmslib-viz/week)](https://pepy.tech/project/nmslib-viz/week)
+<br>
+[![HitCount](http://hits.dwyl.io/AlbertSuarez/nmslib-viz.svg)](http://hits.dwyl.io/AlbertSuarez/nmslib-viz)
 ![Python application](https://github.com/AlbertSuarez/searchly/workflows/Python%20application/badge.svg)
 ![Python package](https://github.com/AlbertSuarez/nmslib-viz/workflows/Python%20package/badge.svg)
 [![GitHub stars](https://img.shields.io/github/stars/AlbertSuarez/nmslib-viz.svg)](https://GitHub.com/AlbertSuarez/nmslib-viz/stargazers/)
