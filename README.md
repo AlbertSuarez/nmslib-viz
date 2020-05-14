@@ -37,6 +37,8 @@ Arguments:
 - `INDEX_FILE_PATH`: String pointing to the NMSLIB file path. There has to be the additional .dat file for the index, the one that is created when uses the `save_data=True` option in the saveIndex() function. For example: `index.nmslib` and `index.nmslib.dat` need to exist but only `index.nmslib` has to be provided as this parameter.
 - `NUMBER_POINTS`: (optional) Number of points as a maximum to plot from the NMSLIB index data, where has to be 1 at least. Default value: 1000.
 
+You could also check this [example](https://github.com/AlbertSuarez/nmslib-viz-example) for knowing how to use this library in a Python script.
+
 ## Result
 
 ![Example](https://raw.githubusercontent.com/AlbertSuarez/nmslib-viz/master/docs/images/example.png)
