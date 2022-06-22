@@ -17,7 +17,7 @@ setuptools.setup(
     packages=['nmslib_viz'],
     install_requires=[
         'nmslib==2.0.5',
-        'numpy==1.18.1',
+        'numpy==1.22.0',
         'matplotlib==3.2.0',
         'scikit-learn==0.22.2.post1'
     ],
